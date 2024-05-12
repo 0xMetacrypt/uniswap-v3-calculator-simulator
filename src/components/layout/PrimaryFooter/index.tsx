@@ -16,7 +16,6 @@ export function PrimaryFooter() {
           </div>
           <div className="mt-8 divide-x-2 text-center text-sm text-slate-600">
             <span className="px-3">hi@metacrypt.org</span>
-            <span className="px-3">security@metacrypt.org</span>
           </div>
         </div>
       </Container>

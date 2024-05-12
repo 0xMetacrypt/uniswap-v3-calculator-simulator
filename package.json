@@ -1,5 +1,5 @@
 {
-  "name": "metacrypt-v2",
+  "name": "uniswap-v3-calculator-simulator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -33,6 +33,7 @@
     "react-icons": "^5.2.1",
     "react-virtualized-auto-sizer": "^1.0.24",
     "react-window": "^1.8.10",
+    "sharp": "^0.33.3",
     "zustand": "^4.5.2"
   },
   "devDependencies": {

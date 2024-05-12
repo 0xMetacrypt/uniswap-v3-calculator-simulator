@@ -8,7 +8,7 @@ export function Logo({ className }: React.ComponentPropsWithoutRef<"div">) {
   return (
     <div className={clsx("", className)}>
       <Link
-        href="/"
+        href="https://www.metacrypt.org/"
         className="flex items-center justify-center space-x-3"
       >
         <Image
