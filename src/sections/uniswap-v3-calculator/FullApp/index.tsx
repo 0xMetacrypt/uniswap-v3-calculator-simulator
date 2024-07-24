@@ -505,6 +505,16 @@ export function FullApp() {
             </p>
           </div>
         </a>
+        <div className="mt-8 text-center">
+          <a
+            href="https://github.com/0xMetacrypt/uniswap-v3-calculator-simulator"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            This project is open source. View on GitHub.
+          </a>
+        </div>
         <div className="mx-4 mt-12">
           <div className="mx-auto max-w-4xl">
             <div className="flow-root">
