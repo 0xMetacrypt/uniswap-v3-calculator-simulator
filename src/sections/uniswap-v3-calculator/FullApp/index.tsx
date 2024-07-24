@@ -3,6 +3,7 @@
 import React, { FC, ReactNode, useEffect, useMemo, useState } from "react";
 
 import Slider from "@mui/material/Slider";
+import { FaGithub } from "react-icons/fa";
 import { MdOutlineCancel } from "react-icons/md";
 import { VscLoading } from "react-icons/vsc";
 
@@ -510,9 +511,12 @@ export function FullApp() {
             href="https://github.com/0xMetacrypt/uniswap-v3-calculator-simulator"
             target="_blank"
             rel="noreferrer"
-            className="text-blue-600 hover:underline"
+            className="text-center text-blue-600 hover:underline"
           >
-            This project is open source. View on GitHub.
+            <div className="flex items-center justify-center space-x-2">
+              <FaGithub />
+              <span>View on GitHub.</span>
+            </div>
           </a>
         </div>
         <div className="mx-4 mt-12">
